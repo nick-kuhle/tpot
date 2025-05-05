@@ -8,7 +8,23 @@
 		"ghcr.io/devcontainers-community/npm-features/prettier:1": {},
 		"ghcr.io/devcontainers-extra/features/jest:2": {},
 		"ghcr.io/devcontainers-extra/features/prisma:2": {}
-	}
+	},
+	"customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "Prisma.prisma",
+        "bradlc.vscode-tailwindcss",
+        "wix.vscode-import-cost",
+        "orta.vscode-jest",
+        "aaron-bond.better-comments",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
